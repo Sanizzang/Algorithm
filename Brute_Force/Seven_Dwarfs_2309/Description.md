@@ -2,9 +2,9 @@
 
 > ### 1. Understanding problem
 > There are 9 dwarfs which means it has to be `natural numbers.` we have to find out
-  7 real dwarfs whose heights are **sum up to 100.** the important thing we need to know is that
-  these little kids are not taller than 100 and their heights are natural number.
-  Lastly, print out heights of dwarfs in increasing order. if there are many available answers, just pick an one result.
+  7 real dwarfs whose heights are **sum up to 100.** the important things that we need to know is that
+  these little kids are nor taller than 100 and their heights are natural number.
+  Lastly, print out heights of dwarfs in increasing order. if there are many available answers, just pick one result.
 > <br />
 > <br />
 > ### 2. Redefining a problem
