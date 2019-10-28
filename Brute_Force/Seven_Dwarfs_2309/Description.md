@@ -1,5 +1,8 @@
 # Six Steps
+<br />
 
+> ## Problem: [Seven Dwarfs 2309](https://www.acmicpc.net/problem/2309)
+>
 > ### 1. Understanding problem
 > There are 9 dwarfs which means it has to be `natural numbers.` we have to find out
   7 real dwarfs whose heights are **sum up to 100.** the important things that we need to know is that
