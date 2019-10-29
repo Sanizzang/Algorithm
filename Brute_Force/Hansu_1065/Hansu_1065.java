@@ -4,8 +4,7 @@ import java.io.*;
 class Hansu_1065{
 	public static int countArithmeticNum(int N, boolean[] isArithmetic){
 		int[] cipher = new int[3];
-		if(N == 1000) return 144;
-		for(int i = 100 ; i <= N ; i++){
+		for(int i = 100 ; i <= N && i != 1000 ; i++){
 			int now = i;
 			int posi = 2;
 			while(now > 0){
