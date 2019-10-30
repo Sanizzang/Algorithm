@@ -22,7 +22,7 @@
 > <br />
 > <br />
 > ### 4. Validate a plan
->  Just check out only 1000 numbers multiplied by its cipher two or three. therefore what we gonna do is less than 3000.
+>  Just check out only 1000 numbers multiplied by its digit two or three. therefore what we gonna do is less than 3000.
   so it is enough to solve the problem. also, the time limitaion of the problem is 2 sec.
 > <br />
 > <br />
