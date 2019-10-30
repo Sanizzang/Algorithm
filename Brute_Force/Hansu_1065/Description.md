@@ -27,7 +27,8 @@
 > <br />
 > <br />
 > ### 5. Implement
-> <br /> 
+>  Here is my first approaching [using a normal brute force](https://github.com/DevStevenLee/Algorithm/blob/master/Brute_Force/Hansu_1065/Hansu_1065.java)
+> <br />
 > <br />
 > ### 6. How it can be improved
 > 
