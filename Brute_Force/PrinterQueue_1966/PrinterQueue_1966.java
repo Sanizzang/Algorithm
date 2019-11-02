@@ -17,12 +17,28 @@ public class PrinterQueue_1966{
 	public static int bruteForce(int N, int M, int[] impo){
 		Queue<H_1966> q = new LinkedList<>();
 		for(int i = 0 ; i < N ; i++){
-			if(i == M) q.offer(new H_1966(impo[i], 1));
-			else q.offer(new H_1966(impo[i], 0));
+			if(i == M) q.offer(new H_1966(impo[i], i));
+			else q.offer(new H_1966(impo[i], -1));
 		}
 		
 		int cnt = 0;
-		
+		while(!q.isEmpty()){
+			H_1966 now = q.poll();
+			for(H_1966 next : q){
+				if(next.getValue() > now.getValue()){
+					q.offer(now);
+					break;
+				}
+			}
+			
+			if(q.size() == N - 1 && now.getTargetIdx() == M)
+				return cnt + 1;
+			
+			else if(q.size() == N - 1){
+				N = q.size();
+				cnt++;
+			}
+		}
 
 		return -1;
 	}
@@ -40,5 +56,18 @@ public class PrinterQueue_1966{
 			int M = Integer.parseInt(st.nextToken());
 
 			int[] impo = new int[N];
+			st = new StringTokenizer(br.readLine());
 
+			for(int i = 0 ; i < N ; i++){
+				impo[i] = Integer.parseInt(st.nextToken());
+			}
+
+			bw.write(bruteForce(N, M, impo) + "\n");
+		}
+
+		bw.flush();
+
+		br.close();
+		bw.close();
 	}
+}
