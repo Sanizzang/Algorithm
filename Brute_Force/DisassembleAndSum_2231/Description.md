@@ -28,7 +28,7 @@
 > <br />
 > <br />
 > ### 5. Implement
->  Here is my first approaching using a normal brute force.
+>  Here is my first approaching [using a normal brute force.](https://github.com/DevStevenLee/Algorithm/blob/master/Brute_Force/DisassembleAndSum_2231/DisassembleAndSum_2231.java)
 > <br /> 
 > <br />
 > ### 6. How it can be improved
