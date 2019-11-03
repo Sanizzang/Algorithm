@@ -52,35 +52,40 @@ public class SangbumBuilding_6593{
 	}
 
 	public static void main(String[] args) throws Exception {
-		Scanner sc = new Scanner(System.in);
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
 		while(true){
-			L = sc.nextInt();
-			R = sc.nextInt();
-			C = sc.nextInt();
+			StringTokenizer st = new StringTokenizer(br.readLine());
+			L = Integer.parseInt(st.nextToken());
+			R = Integer.parseInt(st.nextToken());
+			C = Integer.parseInt(st.nextToken());
 			
 			if(L == 0 && R == 0 && C == 0)
 				break;
 
 			char[][][] map = new char[L][R][C];
 			
-			for(int i = 0 ; i < L ; i++){
-				for(int j = 0 ; j < R ; j++){
-					String temp = sc.next();
-					for(int k = 0 ; k < C ; k++){
-						map[i][j][k] = temp.charAt(k);
-						if(map[i][j][k] == 'S')
-							start = new H_6593(i, j, k);
-						if(map[i][j][k] == 'E')
-							dest = new H_6593(i, j, k);
+			for(int x = 0 ; x < L ; x++){
+				for(int y = 0 ; y < R ; y++){
+					char[] temp = br.readLine().toCharArray(); 
+					for(int z = 0 ; z < C ; z++){
+						map[x][y][z] = temp[z];
+						if(map[x][y][z] == 'S') start = new H_6593(x, y, z);
+						if(map[x][y][z] == 'E') dest = new H_6593(x, y, z);
 					}
 				}
+				br.readLine();
 			}
 			
 			int res = bfs(map);
 			if(res == -1) System.out.println("Trapped!");
             		else System.out.println("Escaped in " + res + " minute(s).");
 		}
-		sc.close();
+
+		bw.flush();
+
+		br.close();
+		bw.close();
 	}
 }
