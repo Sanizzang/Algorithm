@@ -2,13 +2,18 @@ import java.util.*;
 import java.io.*;
 
 class H_6593{
-	int level, row, col;
+	private int level, row, col;
 	
-	public H_6593(int level, int row, int col){
+	H_6593(int level, int row, int col){
 		this.level = level;
 		this.row = row;
 		this.col = col;
 	}
+	
+	public int getLevel() { return this.level; }
+	public int getRow()  { return this.row; }
+	public int getCol()  { return this.col; }
+
 }
 
 public class SangbumBuilding_6593{
@@ -27,12 +32,12 @@ public class SangbumBuilding_6593{
 
 		while(!q.isEmpty()){
 			H_6593 now = q.poll();
-			int nowL = now.level;
-			int nowR = now.row;
-			int nowC = now.col;
+			int nowL = now.getLevel();
+			int nowR = now.getRow();
+			int nowC = now.getCol();
 
-			if(nowL == dest.level && nowR == dest.row && nowC == dest.col)
-				return move[dest.level][dest.row][dest.col];
+			if(map[nowL][nowR][nowC] == 'E')
+				return move[nowL][nowR][nowC];
 
 			for(int i = 0 ; i < 6 ; i++){
 				int NL = nowL + nextL[i];
