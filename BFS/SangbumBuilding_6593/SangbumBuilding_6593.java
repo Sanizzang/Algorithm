@@ -36,6 +36,9 @@ public class SangbumBuilding_6593{
 			int nowR = now.getRow();
 			int nowC = now.getCol();
 
+			/* If it detects to the destination first time
+			 * Return how many times he moves.
+			 * */
 			if(map[nowL][nowR][nowC] == 'E')
 				return move[nowL][nowR][nowC];
 
@@ -43,10 +46,14 @@ public class SangbumBuilding_6593{
 				int NL = nowL + nextL[i];
 				int NR = nowR + nextR[i];
 				int NC = nowC + nextC[i];
-					
+				
+				/* If human can't go next, then continue next step. */
 				if(NL < 0 || NL >= L || NR < 0 || NR >= R || NC < 0 || NC >= C || map[NL][NR][NC] == '#' || move[NL][NR][NC] != 0) 
 					continue;
 				
+				/* If he can go next, add a position of human into queue 
+				 * Also, add 1 from now to next.
+				 * */
 				q.offer(new H_6593(NL, NR, NC));
 				move[NL][NR][NC] = move[nowL][nowR][nowC] + 1;
 			}
