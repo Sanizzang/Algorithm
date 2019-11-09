@@ -1,6 +1,6 @@
 > # Six Steps
-<br /> 
-
+> <br /> 
+>
 > ## Problem: [History 1613](https://www.acmicpc.net/problem/1613) 
 >
 > ### 1. Understanding problem
