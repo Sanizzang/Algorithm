@@ -1,4 +1,4 @@
-#Six Steps
+> #Six Steps
 <br /> 
 
 > ## Problem: [History 1613](https://www.acmicpc.net/problem/1613) 
