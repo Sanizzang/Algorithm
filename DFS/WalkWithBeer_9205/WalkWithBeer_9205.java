@@ -17,6 +17,7 @@ class WalkWithBeer_9205{
 	private static int N;
 	private static final int LIMIT = 1000;
 	public static boolean dfs(int now, H_9205[] map, boolean[] visited){
+		/* If the human can get to the point, return true*/
 		if(now == N + 1) return true;
 
 		visited[now] = true;
@@ -25,7 +26,7 @@ class WalkWithBeer_9205{
 
 		for(int next = 0 ; next < N + 2 ; next++){
 			int distance = Math.abs(map[next].getRow() - map[now].getRow()) + Math.abs(map[next].getCol() - map[now].getCol());
-				
+			/* If result is true, don't need to go next function recursively*/	
 			if(!res && !visited[next] && distance <= LIMIT)
 				res = dfs(next, map, visited);
 		}
