@@ -7,12 +7,16 @@ public class ChooseNumber_2668{
 
 	public static void dfs(int now, int[] nums, boolean[] visited, boolean[] finish){
 		if(visited[now]) return;
+		
 		visited[now] = true;
 
 		int next = nums[now];
-		if(!visited[next])
-			dfs(next, nums, visited, finish);
+		dfs(next, nums, visited, finish);
+		
+		/* When it comes out from dfs, it must be circled sub graph*/
 
+		/* If it's already visited before, then get out of the function*/
+		/* Else if it's first time to visit, add numbers in sub graph into result.*/
 		else if(!finish[next]){
 			res.add(now);
 			for(int i = nums[now] ; i != now ; i = nums[i]){
@@ -20,6 +24,7 @@ public class ChooseNumber_2668{
 			}
 		}
 	
+		/* Every time it must be updated to check its visited.*/
 		finish[now] = true;
 	}
 	public static void main(String[] args) throws Exception{
