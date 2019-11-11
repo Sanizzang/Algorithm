@@ -1,6 +1,6 @@
 #Six Steps
-> <br />
->
+<br />
+
 > ## Problem: 
 >
 > ### 1. Understanding problem
