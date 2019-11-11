@@ -1,5 +1,5 @@
-> #Six Steps
-> <br />
+# Six Steps
+<br />
 
 > ## Problem: [Height and width of tree 2250](https://www.acmicpc.net/problem/2250)
 >
