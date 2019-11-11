@@ -1,6 +1,6 @@
 #Six Steps
-> <br />
->
+<br />
+
 > ## Problem: [Height and width of tree 2250](https://www.acmicpc.net/problem/2250)
 >
 > ### 1. Understanding problem
@@ -25,7 +25,7 @@
 > <br />
 > <br />
 > ### 5. Implement
->
+>  Here is my first approaching [using a normal DFS](https://github.com/DevStevenLee/Algorithm/blob/master/DFS/HeightAndWidthOfTree_2250/HeightAndWidthOfTree_2250.java)
 > <br /> 
 > <br />
 > ### 6. How it can be improved
