@@ -1,7 +1,7 @@
 #Six Steps
 > <br />
 >
-> ## Problem: 
+> ## Problem: [Height and width of tree 2250](https://www.acmicpc.net/problem/2250)
 >
 > ### 1. Understanding problem
 >  There is a tree based on the rules. #1 a node at the same the level should be on the same row. #2 
