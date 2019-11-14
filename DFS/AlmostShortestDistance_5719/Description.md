@@ -18,7 +18,7 @@
 > <br />
 > <br />
 > ### 4. Validate a plan
->
+>  Basically, i gonna use dijkstra algorithm it should take O(N log N) which means it's enough to pass the problem :D
 > <br />
 > <br />
 > ### 5. Implement
