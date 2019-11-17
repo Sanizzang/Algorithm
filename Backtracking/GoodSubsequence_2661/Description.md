@@ -17,16 +17,19 @@
 > of any same length. find shorest G that doesn't satisfied with P.
 > <br />
 > <br />
+>
 > ### 3. Making a plan
 >  Keep adding one of 1, 2, 3 to the G until G satisfied with P. if G is satisfied with P, get rid of the last number in 
   G and add another number of 1, 2, 3. when the length of G reaches out to the N, print out it.
 > <br />
 > <br />
+>
 > ### 4. Validate a plan
 >  Obviously, It gonna take O(3^N). but it should not accept to exist duplicated H in G. it would be enough to pass the
   problem.
 > <br />
 > <br />
+>
 > ### 5. Implement
 >
 > <br /> 
