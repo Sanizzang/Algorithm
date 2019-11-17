@@ -17,10 +17,12 @@ class Sudoku_2580{
 	private static int[][] map = new int[10][10];
 
 	public static void setVisited(int row, int col, int[][] map, boolean[] visited){
+		/* Mark values on the same line row, column of the target. */
 		for(int i = 1 ; i < 10 ; i++){
 			visited[map[row][i]] = visited[map[i][col]] = true;
 		}
-
+		
+		/* Mark values on the same box of the target. */
 		if(row < 4) row = 1;
                 else if(row < 7) row = 4;
                 else row = 7;
@@ -44,14 +46,21 @@ class Sudoku_2580{
 		
 		int nowRow = target.get(now).getRow();
 		int nowCol = target.get(now).getCol();
-
+		
+		/* Mark values on the same lines row, column, box of the target */
 		setVisited(nowRow, nowCol, map, visited);
 	
+		
 		for(int i = 1 ; i < 10 ; i++){
+			/* If a value doesn't mark yet, place it on the target */
 			if(!visited[i]){
 				map[nowRow][nowCol] = i;
+				/* If it finds the combination to fill the board with the specific number
+				 * Return true to not go insider deeper. 
+				 * */
 				if(backtracking(now + 1, target))
 					return true;
+				/* If it doesn't find the combination, remove the value in the target. */
 				map[nowRow][nowCol] = 0;
 			}
 		}

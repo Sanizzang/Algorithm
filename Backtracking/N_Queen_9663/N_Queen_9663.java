@@ -37,6 +37,7 @@ class N_Queen_9663{
 
 		int cnt = 0;
 		for(int col = 0 ; col < N ; col++){
+			/* If this position is able to place the queen, mark 1 within the board*/
 			if(isValid(row, col, map)){
 				map[row][col] = 1;
 				cnt+=backtracking(row + 1, map);
