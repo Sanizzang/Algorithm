@@ -10,8 +10,8 @@
 > <br />
 > ### 2. Redefining a problem
 >  Assume that G is sequence, H is subsequence of G. Also, Let's assume some symbols below
->> 1 <= n <= size of G, n (- N. all n is the specific position in G
->> 1 <= s <= size of G, s (- N. all s is the start of any H.
+>> 1 <= n <= size of G, n (- N. all n is the specific position in G <br />
+>> 1 <= s <= size of G, s (- N. all s is the start of any H.<br />
 >> 1 <= k <= size of G / 2, k (- N. all k is the length of H. <br /> 
 > therefore, when P = H(n(s) \*\*\* n(s+k-1)), H(n(s+k) \*\*\* n(s+2k-1)) which of componenets are close two subsequences 
 > of any same length. find shorest G that doesn't satisfied with P.
