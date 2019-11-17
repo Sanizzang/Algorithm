@@ -69,12 +69,14 @@ class Sheep_3184{
 			String line = br.readLine();
 			for(int j = 0 ; j < C ; j++){
 				field[i][j] = line.charAt(j);
+				/* Save the mark if it is a sheep or a wolf. Because visit faster using BFS in the field*/
 				if(field[i][j] == 'o' || field[i][j] == 'v')
 					animals.add(new H_3184(i, j, field[i][j]));
 			}
 		}
 		
 		boolean[][] visited = new boolean[R][C];
+		/* Only use bfs when animal doesn't visit yet */
 		for(H_3184 animal : animals){
 			if(visited[animal.getRow()][animal.getCol()]) 
 				continue;
