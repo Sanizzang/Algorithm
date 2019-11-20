@@ -34,7 +34,7 @@
 > <br />
 
 > ### 5. Implement
->
+>  Here is my first approaching [using BFS skill](https://github.com/DevStevenLee/Algorithm/blob/master/BFS/TheMonkey_1600/TheMonkey_1600.java)
 > <br /> 
 > <br />
 > ### 6. How it can be improved
