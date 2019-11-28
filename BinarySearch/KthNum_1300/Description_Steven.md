@@ -27,7 +27,7 @@
 > <br />
 > <br />
 > ### 5. Implement
->
+>  Here is my first approaching [using Binary Search](https://github.com/DevStevenLee/Algorithm/blob/master/BinarySearch/KthNum_1300/KthNum_1300.java)
 > <br /> 
 > <br />
 > ### 6. How it can be improved (Review)
