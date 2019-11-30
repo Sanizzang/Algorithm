@@ -17,10 +17,10 @@
    
 ## How the project will work
 
-> #### There are four steps that we have to know
+> #### There are five steps that we have to know
 >
 >
->> 1. Solving 4 Problems of which part are random for a week except Sunday and it gonna be saved each folder related to part
+>> 1. Solving 3 Problems of which part are random for a week at least and it gonna be saved each folder related to part
 >> 2. Each problem is given with a file that would be written with 6 steps
 >>	
 ```						  
@@ -33,11 +33,15 @@
 					6. Find out how it can be improved
 ```
 >>
->> 3. After solving a problem, check out others program to compare with my code.
+>> 3. After solving a problem, check out others program to compare with my code or review the code yourself.
 >>
->> 4. On sunday, do a code review 
+>> 4. At least, do code review 3 times for a week on your code or your partner.
 >>
-
+>> 5. Here is my [discord server](https://discord.gg/sws3Du), join here :D
+>>
+>>
+>> @ this is the [example](https://github.com/DevStevenLee/Algorithm/tree/master/BinarySearch/WeightLimit_1939) for this step.
+>>
 
 
 
