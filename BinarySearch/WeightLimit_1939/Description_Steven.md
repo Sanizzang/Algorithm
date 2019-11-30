@@ -33,8 +33,9 @@
 > <br />
 > ### 5. Implement
 >  Here is my code [using binary search](https://github.com/DevStevenLee/Algorithm/blob/master/BinarySearch/WeightLimit_1939/WeightLimit_1939.java) but it failed..
-
-   #1. it patched by DevSteven (2019-11-30 14:04)
+>
+>   #1. it patched by DevSteven (2019-11-30 14:04)
+>
 > <br /> 
 > <br />
 > ### 6. How it can be improved
