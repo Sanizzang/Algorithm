@@ -14,7 +14,7 @@ class H_1939{
 
 }
 
-class Main{
+class WeightLimit_1939{
         private static int N, M;
         private static int start, dest;
 
@@ -48,7 +48,6 @@ class Main{
                         map[i] = new ArrayList<>();
                 }
 
-                int maxCost = 0;
                 for(int i = 1 ; i <= M ; i++){
                         st = new StringTokenizer(br.readLine());
                         int a = Integer.parseInt(st.nextToken());
@@ -57,7 +56,6 @@ class Main{
 
                         map[a].add(new H_1939(b, c));
                         map[b].add(new H_1939(a, c));
-                        maxCost = Math.max(maxCost, c);
                 }
 
                 st = new StringTokenizer(br.readLine());
@@ -65,14 +63,14 @@ class Main{
                 start = Integer.parseInt(st.nextToken());
                 dest = Integer.parseInt(st.nextToken());
 
-                int left = 1, right = maxCost;
-                while(left <= right){
+                int left = 1, right = 1000000000;
+                while(left < right){
                         int mid = (left + right) / 2;
 
-                        if(dfs(start, mid, map, new boolean[N+1]))
-                                left = mid + 1;
-                        else
+                        if(!dfs(start, mid, map, new boolean[N+1]))
                                 right = mid - 1;
+                        else
+                                left = mid;
 
                 }
 
