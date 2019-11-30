@@ -38,6 +38,7 @@
 >
 > <br /> 
 > <br />
+>
 > ### 6. How it can be improved
 >  First apporaching failed cuz it has the problem within binary searching process. after checking the path existence or non
   existence, if it doesn't exist, right should be mid - 1 obviously, but here is the problem if it exists, left should be
