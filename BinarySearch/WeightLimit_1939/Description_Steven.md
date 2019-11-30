@@ -32,11 +32,15 @@
 > <br />
 > <br />
 > ### 5. Implement
->  Here is my code [using binary search](https://github.com/DevStevenLee/Algorithm/blob/master/BinarySearch/WeightLimit_1939/WeightLimit_1939.java) but it failed.. 
+>  Here is my code [using binary search](https://github.com/DevStevenLee/Algorithm/blob/master/BinarySearch/WeightLimit_1939/WeightLimit_1939.java) but it failed..
+
+   #1. it patched by DevSteven (2019-11-30 14:04)
 > <br /> 
 > <br />
 > ### 6. How it can be improved
->
->
->
+>  First apporaching failed cuz it has the problem within binary searching process. after checking the path existence or non
+  existence, if it doesn't exist, right should be mid - 1 obviously, but here is the problem if it exists, left should be
+  mid. it gonna take a long. therefore, letting left mid + 1 is right approaching answer should be right when searching in
+  (left <= right) condition  by DevSteven (2019-11-30. 14:04)
+  
 

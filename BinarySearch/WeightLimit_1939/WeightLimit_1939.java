@@ -72,19 +72,19 @@ class WeightLimit_1939{
                 int left = 1, right = 1000000000;
 
                 /* The process for finding the maximum weight limit using binary search. */
-		while(left < right){
+		while(left <= right){
                         int mid = (left + right) / 2;
 				
 			/* if there doesn't exist the path to get to the destination,
-			 * right should be mid - 1 cuz mid is smaller than a current value.
+			 * right should be mid - 1 cuz mid has to be smaller than a current value.
 			 * */
                         if(!dfs(start, mid, map, new boolean[N+1]))
                                 right = mid - 1;
                         /* if there exist the path to get to the destination.
-			 * left should be mid cuz find the maximum weight limit, it keeps traversing.
+			 * left should be mid + 1 cuz mid has to be bigger than a current value.
 			 * */
 			else
-                                left = mid;
+                                left = mid + 1;
 
                 }
 
