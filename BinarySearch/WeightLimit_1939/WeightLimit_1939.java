@@ -17,7 +17,8 @@ class H_1939{
 class WeightLimit_1939{
         private static int N, M;
         private static int start, dest;
-
+	
+	/* The process for checking that it has a path to reach the destination. */
         public static boolean dfs(int now, int limit, List<H_1939>[] map, boolean[] visited){
                 if(now == dest) return true;    
                 if(visited[now]) return false;
@@ -26,7 +27,12 @@ class WeightLimit_1939{
                 for(H_1939 pair : map[now]){
                         int next = pair.getNext();
                         int weight = pair.getWeight();
-
+			
+			/* If next weight of a vertax is bigger than limit or equals to it
+			 * it can go next vertax.
+			 *
+			 * when it finally reach the destination, return true. 
+			 * */
                         if(weight >= limit && dfs(next, limit, map, visited))
                                 return true;
                 }
@@ -64,12 +70,20 @@ class WeightLimit_1939{
                 dest = Integer.parseInt(st.nextToken());
 
                 int left = 1, right = 1000000000;
-                while(left < right){
-                        int mid = (left + right) / 2;
 
+                /* The process for finding the maximum weight limit using binary search. */
+		while(left < right){
+                        int mid = (left + right) / 2;
+				
+			/* if there doesn't exist the path to get to the destination,
+			 * right should be mid - 1 cuz mid is smaller than a current value.
+			 * */
                         if(!dfs(start, mid, map, new boolean[N+1]))
                                 right = mid - 1;
-                        else
+                        /* if there exist the path to get to the destination.
+			 * left should be mid cuz find the maximum weight limit, it keeps traversing.
+			 * */
+			else
                                 left = mid;
 
                 }

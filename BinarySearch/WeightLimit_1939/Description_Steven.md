@@ -32,7 +32,7 @@
 > <br />
 > <br />
 > ### 5. Implement
->
+>  Here is my code [using binary search](https://github.com/DevStevenLee/Algorithm/blob/master/BinarySearch/WeightLimit_1939/WeightLimit_1939.java) but it failed.. 
 > <br /> 
 > <br />
 > ### 6. How it can be improved
