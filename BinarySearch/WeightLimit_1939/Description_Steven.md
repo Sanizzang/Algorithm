@@ -41,8 +41,11 @@
 >
 > ### 6. How it can be improved
 >  First apporaching failed cuz it has the problem within binary searching process. after checking the path existence or non
-  existence, if it doesn't exist, right should be mid - 1 obviously, but here is the problem if it exists, left should be
-  mid. it gonna take a long. therefore, letting left mid + 1 is right approaching answer should be right when searching in
-  (left <= right) condition  by DevSteven (2019-11-30. 14:04)
-  
+> existence, if it doesn't exist, right should be mid - 1 obviously, but here is the problem if it exists, left should be
+> mid. it gonna take a long. therefore, letting left mid + 1 is right approaching answer should be right when searching in
+> (left <= right) condition  
+> <br /> 
+> <br />
+>  		by DevSteven (2019-11-30. 14:04)
+> 
 
