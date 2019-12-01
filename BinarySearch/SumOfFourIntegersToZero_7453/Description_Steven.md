@@ -24,9 +24,9 @@
 > ### 4. Validate a plan
 >  It gonna take O(n^2 log n^2) because i acutally make the combinations of each two arrays taking O(n^2) and binary search 
   would take O(log N^2) so it should be O(n^2 log n^2) enough to pass the problem :D
->
 > <br />
 > <br />
+
 > ### 5. Implement
 >  Here is my code [using binary searching](https://github.com/DevStevenLee/Algorithm/blob/master/BinarySearch/SumOfFourIntegersToZero_7453/SumOfFourIntegersToZero_7453.java)
 > <br /> 
