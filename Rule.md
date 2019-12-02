@@ -19,7 +19,8 @@
 > <br />
 >
 > 2. Go to the right repo matching the part of problem you gonna solve.
-> => For example, If you work on brute force problem like seven dwarfs problem, it should be placed 
+> <br /> 
+  => For example, If you work on brute force problem like seven dwarfs problem, it should be placed 
   in Brute force folder If there doesn't exist what you look for, make the new repo for your problem like 
   making a Dynamic Programming that have not existed. After making, copy the description in the root folder
   into the new folder you just made.
@@ -27,7 +28,8 @@
 >
 > 3. Before you start solving problem, you need to make your own folder naming same the problem. also, copy the description
 > in the parent folder into the new repo :D here, you should rename it to Description\_(your name)
-> => For example, If you try to solve seven dwarfs 1321 problem, create the SevenDwarfs\_1321\_(your name) 
+> <br /> 
+  => For example, If you try to solve seven dwarfs 1321 problem, create the SevenDwarfs\_1321\_(your name) 
   with the Description\_(your name)
 > <br />
 >
@@ -63,13 +65,11 @@
 >
 > 5. Write the step 6 of the someone's description why it wan not effective, why your approaching is better the writer.
 > <br />
->
 >    => Here is the [example](https://github.com/DevStevenLee/Algorithm/blob/master/BinarySearch/WeightLimit_1939/Description_Steven.md) for this
 > <br />
 >
 > 6. Write the step 5 with the number of how many times it patched, time and a Writer
 > <br />
->
 >    => Here is the [example](https://github.com/DevStevenLee/Algorithm/blob/master/BinarySearch/WeightLimit_1939/Description_Steven.md)
 > <br />
 >
