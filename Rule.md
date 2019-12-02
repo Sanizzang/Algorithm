@@ -1,6 +1,6 @@
 # Rule
 
-### Rule for study
+> ### Rule for study
 > 1. Solving 3 problems of which part are random for a week at least and i gonna be saved each folder related to the part.
 > <br />
 >
@@ -14,7 +14,7 @@
 <br />
 <br />
 
-### How to study
+> ### How to study
 > 1. Fork the [algorithm study](https://github.com/DevStevenLee/Algorithm)
 > <br />
 >
@@ -44,9 +44,9 @@
 > <br />
 >
 > 7. After it's accepted by a manager, write the url of your code in Github into the step 5 of the descrption.
+>
 
-
-### How to code review
+> ### How to code review
 > 1. Look for the problem you wanna do a code review.
 > <br />
 >
@@ -62,13 +62,13 @@
 > 5. Write the step 6 of the someone's description why it wan not effective, why your approaching is better the writer.
 > <br />
 >
-> => Here is the [example](https://github.com/DevStevenLee/Algorithm/blob/master/BinarySearch/WeightLimit_1939/Description_Steven.md) for this
+>    => Here is the [example](https://github.com/DevStevenLee/Algorithm/blob/master/BinarySearch/WeightLimit_1939/Description_Steven.md) for this
 > <br />
 >
 > 6. Write the step 5 with the number of how many times it patched, time and a Writer
 > <br />
 >
-> => Here is the [example](https://github.com/DevStevenLee/Algorithm/blob/master/BinarySearch/WeightLimit_1939/Description_Steven.md)
+>    => Here is the [example](https://github.com/DevStevenLee/Algorithm/blob/master/BinarySearch/WeightLimit_1939/Description_Steven.md)
 > <br />
 >
 > 7. Commit it with how many times it patched
