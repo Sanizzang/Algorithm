@@ -21,9 +21,10 @@
 > 2. Go to the right repo matching the part of problem you gonna solve.
 > <br />
 >
-> => For example, If you work on brute force problem like seven dwarfs problem, it should be placed in Brute force folder
-> If there doesn't exist what you look for, make the new repo for your problem like making a Dynamic Programming that have not
-> existed. After making, copy the description in the root folder into the new folder you just made.
+> => For example, If you work on brute force problem like seven dwarfs problem, it should be placed 
+  in Brute force folder If there doesn't exist what you look for, make the new repo for your problem like 
+  making a Dynamic Programming that have not existed. After making, copy the description in the root folder
+  into the new folder you just made.
 > <br />
 >
 > 3. Before you start solving problem, you need to make your own folder naming same the problem. also, copy the description
@@ -46,6 +47,10 @@
 > 7. After it's accepted by a manager, write the url of your code in Github into the step 5 of the descrption.
 >
 
+<br />
+<br />
+<br />
+<br />
 > ### How to code review
 > 1. Look for the problem you wanna do a code review.
 > <br />
