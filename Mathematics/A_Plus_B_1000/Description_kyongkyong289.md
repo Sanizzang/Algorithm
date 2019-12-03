@@ -13,7 +13,7 @@
 > <br />
 > ### 3. Making a plan
 >> The input is divided by space. So, we should use map(int, input().split()).
-   And we need to print A + B. So we should use print(a + b).
+>> And we need to print A + B. So we should use print(a + b).
 > <br />
 > <br />
 > ### 4. Validate a plan
