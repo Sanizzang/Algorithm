@@ -17,7 +17,7 @@
 > <br />
 > <br />
 > ### 4. Validate a plan
->> There are two numbers so the time complexity is O(1). It's enough.
+> There are two numbers so the time complexity is O(1). It's enough.
 > <br />
 > <br />
 > ### 5. Implement
