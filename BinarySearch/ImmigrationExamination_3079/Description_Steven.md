@@ -12,17 +12,21 @@
 > <br />
 > <br />
 > ### 2. Redefining a problem
->  Let's assume that predicate P is taking the time to finish check in for the number of M people through T(n) (1 <= n <= 100,000)
-  the main point is that each offical is independent which means, it doesn't affect any workers !! 
-  basically, it's just a rotation. therefore, every sum of T(k) | taking time at T(k) supposed to be the number of people.
+>  Let's assume that predicate P is taking the time to finish check in for the number of M people through T(n) 
+  (1 <= n <= 100,000) the main point is that each offical is independent which means, it doesn't affect any workers !! 
+  basically, it's just a rotation. therefore, every sum of T(k) | taking time for all the people.
+  supposed to be the number of people.
 > <br />
 > <br />
 > ### 3. Making a plan
->
+>  As i mentioned eariler, the formula for result, "every sum of T(k) | taking time for all the people = the number of perople" 
+  here is the idea. assuming that we know the answer as mid in binary search, the minimum time, then, check it equals 
+  to M with the formula. if it's less than M, left should be mid + 1. if not, right should be mid.
 > <br />
 > <br />
 > ### 4. Validate a plan
->
+>  Becuase i gonna use binary search, it should take O(log n). also, to calculate the formular, it need to take O(n)
+  as a result, it has to take O(n log n) enough to pass the problem :D
 > <br />
 > <br />
 > ### 5. Implement
