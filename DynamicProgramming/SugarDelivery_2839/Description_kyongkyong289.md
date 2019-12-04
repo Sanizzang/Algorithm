@@ -12,9 +12,9 @@
 > <br />
 > <br />
 > ### 3. Making a plan
-> We should use Dynamic Programming to solve this problem.
-> We can make a list which list[n] is minimum packs of sugar.
-> Since 8, 9, 10kg of sugar is possible, all weights same or more than 8kg is possible.
+> We should use Dynamic Programming to solve this problem.  
+> We can make a list which list[n] is minimum packs of sugar.  
+> Since 8, 9, 10kg of sugar is possible, all weights same or more than 8kg is possible.  
 > We make list[0] to list[7] and make it recursive for same or more than 8kg
 > Since (n - 3)kg and (n - 5)kg are minimum_guaranteed, nkg which is chosen by minimun of (n - 3)kg and (n - 5)kg is also minimum.
 > <br />
