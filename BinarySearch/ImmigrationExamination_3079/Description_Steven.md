@@ -31,7 +31,7 @@
 > <br />
 > <br />
 > ### 5. Implement
->
+> Here is my [first approaching](https://github.com/DevStevenLee/Algorithm/blob/master/BinarySearch/ImmigrationExamination_3079/Description_Steven.md) using binary search especially, lower bound
 > <br /> 
 > <br />
 > ### 6. How it can be improved
