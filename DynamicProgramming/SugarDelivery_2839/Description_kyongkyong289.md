@@ -18,7 +18,7 @@
 > ### 5. Implement
 > This is my first code using dynamic programming.
 > [Code](https://github.com/kyongkyong289/Algorithm/blob/master/DynamicProgramming/SugarDelivery_2839/SugarDelivery_2839_kyongkyong289.py)  
-> (First version)
+> (Version #1)
 > ### 6. How it can be improved
 >
 >

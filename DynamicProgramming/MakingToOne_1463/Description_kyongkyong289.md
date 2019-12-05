@@ -24,6 +24,7 @@
 > ### 5. Implement
 > This is my first code using Dynamic Programming  
 > [code](https://github.com/kyongkyong289/Algorithm/blob/master/DynamicProgramming/MakingToOne_1463/MakingToOne_1463_kyongkyong289.py)  
+> (Version #1)
 > ### 6. How it can be improved
 >
 >
