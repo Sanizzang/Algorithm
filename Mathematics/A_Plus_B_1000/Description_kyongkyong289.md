@@ -13,7 +13,7 @@
 > ### 4. Validate a plan
 > There are two numbers so the time complexity is O(1). It's enough.
 > ### 5. Implement
-> This is my first code
+> This is my first code  
 > [code](https://github.com/kyongkyong289/Algorithm/blob/master/Mathematics/A_Plus_B_1000/A_plus_B_1000_kyongkyong289.py)  
 > (Version #1)
 > ### 6. How it can be improved
