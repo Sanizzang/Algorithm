@@ -28,7 +28,7 @@
 > <br />
 > <br />
 > ### 5. Implement
->  Here is my first approaching [using a nomarl brute force](https://github.com/DevStevenLee/Algorithm/blob/master/Brute_Force/Seven_Dwarfs_2309/Seven_Dwarfs_2309.java) 
+>  Here is my first approaching [using a nomarl brute force](https://github.com/DevStevenLee/Algorithm/blob/master/Brute_Force/Seven_Dwarfs_2309/Seven_Dwarfs_2309.java)  
 > Added some comments on the script  
 > (kyongkyong289 #2 patch, 2019-12-05)
 > <br /> 
