@@ -32,7 +32,8 @@
 > <br /> 
 > <br />
 > ### 6. How it can be improved
->
->
+> I think the code can be improved by adding some comments. This will not change the time complexity, but, if you add comments,  
+> then other people can see your code and understand your code more easily.  
+> (kyongkyong289, #1 review, 2019-12-05)  
 >
 
