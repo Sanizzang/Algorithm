@@ -22,7 +22,7 @@
 > <br />
 > <br />
 > ### 5. Implement
->
+>  Here is my [first approaching](https://github.com/DevStevenLee/Algorithm/blob/master/Dijkstra/AlmostShortestDistance_5719/AlmostShortestDistance_5719_Steven.java) using Dijkstra
 > <br /> 
 > <br />
 > ### 6. How it can be improved

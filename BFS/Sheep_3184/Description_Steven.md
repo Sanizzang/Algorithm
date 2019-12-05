@@ -34,7 +34,7 @@
 > <br />
 >
 > ### 5. Implement
->  Here is my first approaching [using BFS](https://github.com/DevStevenLee/Algorithm/blob/master/BFS/Sheep_3184/Sheep_3184.java)
+>  Here is my first approaching [using BFS](https://github.com/DevStevenLee/Algorithm/blob/master/BFS/Sheep_3184/Sheep_3184_Steven.java)
 > <br /> 
 > <br />
 >
