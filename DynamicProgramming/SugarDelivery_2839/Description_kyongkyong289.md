@@ -17,8 +17,7 @@
 > The time complexity is O(n) since N <= 5000, this is enough time to calculate.
 > ### 5. Implement
 > This is my first code using dynamic programming.
-> [code](https://github.com/kyongkyong289/Algorithm/blob/master/
-> DynamicProgramming/SugarDelivery_2839/SugarDelivery_2839_kyongkyong289.py)
+> [code](https://github.com/kyongkyong289/Algorithm/blob/master/DynamicProgramming/SugarDelivery_2839/SugarDelivery_2839_kyongkyong289.py)
 > ### 6. How it can be improved
 >
 >
