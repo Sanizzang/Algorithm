@@ -28,11 +28,15 @@
 > <br />
 > <br />
 > ### 5. Implement
->  Here is my first approaching [using a nomarl brute force](https://github.com/DevStevenLee/Algorithm/blob/master/Brute_Force/Seven_Dwarfs_2309/Seven_Dwarfs_2309_Steven.java) 
+
+>  Here is my first approaching [using a nomarl brute force](https://github.com/DevStevenLee/Algorithm/blob/master/Brute_Force/Seven_Dwarfs_2309/Seven_Dwarfs_2309_Steven.java)
+> Added some comments on the script  
+> (kyongkyong289 #2 patch, 2019-12-05)
 > <br /> 
 > <br />
 > ### 6. How it can be improved
->
->
+> I think the code can be improved by adding some comments. This will not change the time complexity, but, if you add comments,
+> then other people can see your code and understand your code more easily.  
+> (kyongkyong289, #1 review, 2019-12-05)  
 >
 
