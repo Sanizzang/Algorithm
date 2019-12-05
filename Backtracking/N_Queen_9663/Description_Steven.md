@@ -27,7 +27,7 @@
 > <br />
 > <br />
 > ### 5. Implement
->
+>  Here is my [first approaching](https://github.com/DevStevenLee/Algorithm/blob/master/Backtracking/N_Queen_9663/N_Queen_9663_Steven.java) using Backtracking
 > <br /> 
 > <br />
 > ### 6. How it can be improved

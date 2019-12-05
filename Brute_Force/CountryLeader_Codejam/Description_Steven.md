@@ -26,7 +26,7 @@
 > <br />
 > <br />
 > ### 5. Implement
->  Here is my first approaching [using brute fore](https://github.com/DevStevenLee/Algorithm/blob/master/Brute_Force/CountryLeader_Codejam/CountryLeader_Codejam.java) 
+>  Here is my first approaching [using brute fore](https://github.com/DevStevenLee/Algorithm/blob/master/Brute_Force/CountryLeader_Codejam/CountryLeader_Codejam_Steven.java) 
 > <br />
 > 					by DevSteven 2019-11-30 06:35 pm
 > <br /> 

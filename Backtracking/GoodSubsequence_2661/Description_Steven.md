@@ -32,7 +32,7 @@
 > <br />
 >
 > ### 5. Implement
-> Here is my first approaching [using Backtracking](https://github.com/DevStevenLee/Algorithm/blob/master/Backtracking/GoodSubsequence_2661/Description.md)
+> Here is my first approaching [using Backtracking](https://github.com/DevStevenLee/Algorithm/blob/master/Backtracking/GoodSubsequence_2661/GoodSubsequence_2661_Steven.java)
 > <br /> 
 > <br />
 > ### 6. How it can be improved

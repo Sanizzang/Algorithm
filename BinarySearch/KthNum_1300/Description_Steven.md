@@ -19,15 +19,17 @@
   binary search. Let's think a m value in binary searching as a Kth element. Because A[i][j] is defined by i\*j
   (m / i) meaning that the number of elements that are smaller than mid at each i row. also, (m / i) could be bigger
   than N, therefore, it can be expressed by the sum of min(mid / i, N) from 1 to N. 
-
+>
 > <br />
 > <br />
 > ### 4. Validate a plan
 >  To use binary search, it gonna take (n log n) enough to pass the problem :D.
+>
 > <br />
 > <br />
 > ### 5. Implement
->  Here is my first approaching [using Binary Search](https://github.com/DevStevenLee/Algorithm/blob/master/BinarySearch/KthNum_1300/KthNum_1300.java)
+>  Here is my first approaching [using Binary Search](https://github.com/DevStevenLee/Algorithm/blob/master/BinarySearch/KthNum_1300/KthNum_1300_Steven.java)
+>
 > <br /> 
 > <br />
 > ### 6. How it can be improved (Review)
