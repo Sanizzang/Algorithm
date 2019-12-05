@@ -29,7 +29,7 @@
 > <br />
 > <br />
 > ### 5. Implement
->
+>  Here is my [first approaching](https://github.com/DevStevenLee/Algorithm/blob/master/BFS/Robot_1726/Robot_1726_Steven.java) using BFS
 > <br /> 
 > <br />
 > ### 6. How it can be improved

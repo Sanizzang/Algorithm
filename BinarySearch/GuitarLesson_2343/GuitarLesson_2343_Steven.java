@@ -6,13 +6,16 @@ class GuitarLesson_2343{
 
 	public static long binarySearch(int[] lessons){
 		long left = max, right = 1000000000 / M;
-
+		
 		while(left < right){
+			/* Set mid as the value for the minimum blu ray size */
 			long mid = (left + right) / 2;
 			
 			int cnt = 0;
 			long sum = 0;
-
+			
+			/* count the number of dividing lessons into blu rays in the standard form
+			 * that is every sets is not bigger than mid.*/
 			for(int i = 0 ; i < N ; i++){
 				sum+=lessons[i];
 
@@ -21,9 +24,10 @@ class GuitarLesson_2343{
 					sum = lessons[i];
 				}
 			}
-
+			
+			/* it need to be patched at last part */
 			if(sum <= mid) cnt++;
-
+			
 			if(cnt > M) left = mid + 1;
 			else right = mid;
 		}

@@ -1,4 +1,4 @@
-> #Six Steps
+# Six Steps
 > <br />
 > 
 > ## Problem: [SangbumBuilding 6593](https://www.acmicpc.net/problem/6593)
@@ -25,7 +25,7 @@
 > <br />
 > <br />
 > ### 5. Implement
->  Here is my first approaching for [SangbumBuilding 6593](https://github.com/DevStevenLee/Algorithm/blob/master/DFS/SangbumBuilding_6593/SangbumBuilding_6593.java)
+>  Here is my first approaching for [SangbumBuilding 6593](https://github.com/DevStevenLee/Algorithm/blob/master/BFS/SangbumBuilding_6593/SangbumBuilding_6593_Steven.java)
 > <br /> 
 > <br />
 > ### 6. How it can be improved

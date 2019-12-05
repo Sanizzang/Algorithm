@@ -20,8 +20,8 @@
 > #### There are five steps that we have to know
 >
 >
->> 1. Solving 3 Problems of which part are random for a week at least and it gonna be saved each folder related to part
->> 2. Each problem is given with a file that would be written with 6 steps
+>> 1. Solving 3 Problems of which part are random for a week at least and it gonna be saved each folder related to the part.
+>> 2. Each problem has to be written with given a 6 steps file.
 >>	
 ```						  
 							* Six Steps *
