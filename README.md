@@ -37,7 +37,7 @@
 >>
 >> 4. At least, do code review 3 times for a week on your code or your partner.
 >>
->> 5. Here is my [discord server](https://discord.gg/sws3Du), join here :D
+>> 5. Here is my [discord server](https://discord.gg/XGZPkh), join here :D
 >>
 >>
 >> @ this is the [example](https://github.com/DevStevenLee/Algorithm/tree/master/BinarySearch/WeightLimit_1939) for this step.
