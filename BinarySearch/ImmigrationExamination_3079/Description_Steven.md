@@ -1,4 +1,4 @@
-# Six Steps
+Six Steps
 <br />
 
 > ## Problem: [Immigration Examination 3079](https://www.acmicpc.net/problem/3079)
@@ -31,7 +31,7 @@
 > <br />
 > <br />
 > ### 5. Implement
-> Here is my [first approaching](https://github.com/DevStevenLee/Algorithm/blob/master/BinarySearch/ImmigrationExamination_3079/Description_Steven.md) using binary search especially, lower bound
+> Here is my [first approaching](https://github.com/DevStevenLee/Algorithm/blob/master/BinarySearch/ImmigrationExamination_3079/ImmigrationExamination_3079_Steven.java) using binary search especially, lower bound
 > <br /> 
 > <br />
 > ### 6. How it can be improved
