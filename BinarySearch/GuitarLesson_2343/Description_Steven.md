@@ -29,7 +29,7 @@
 > <br />
 > <br />
 > ### 5. Implement
->
+>  Here is my [first apporaching](https://github.com/DevStevenLee/Algorithm/blob/master/BinarySearch/GuitarLesson_2343/GuitarLesson_2343_Steven.java) using binary search.
 > <br /> 
 > <br />
 > ### 6. How it can be improved
