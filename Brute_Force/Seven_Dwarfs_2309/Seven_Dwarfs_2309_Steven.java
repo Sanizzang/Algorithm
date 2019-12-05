@@ -27,24 +27,30 @@ class Seven_Dwarfs_2309{
 	}
 
 	public static void main(String[] args) throws Exception{
+		/* Defining Input and Output buffer */
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
+		/* Defining Dwarfs. */
 		int[] dwarfs = new int[9];
 
+		/* Input part */
 		for(int i = 0 ; i < 9 ; i++){
 			dwarfs[i] = Integer.parseInt(br.readLine());
 		}
 
 		List<Integer> candidate = new ArrayList<>();
 
+		/* Using brute_force */
 		brute_force(dwarfs, candidate, 0, 0);
 
+		/* Output part */
 		Collections.sort(res);
 		for(int dwarf : res){
 			bw.write(dwarf + "\n");
 		}
 
+		/* Cleaning Memory */
 		bw.flush();
 
 		br.close();

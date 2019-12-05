@@ -28,7 +28,7 @@
 > <br />
 >
 > ### 5. Implement
->  Here is my code [using binary searching](https://github.com/DevStevenLee/Algorithm/blob/master/BinarySearch/SumOfFourIntegersToZero_7453/SumOfFourIntegersToZero_7453.java)
+>  Here is my code [using binary searching](https://github.com/DevStevenLee/Algorithm/blob/master/BinarySearch/SumOfFourIntegersToZero_7453/SumOfFourIntegersToZero_7453_Steven.java)
 > <br /> 
 > <br />
 > ### 6. How it can be improved

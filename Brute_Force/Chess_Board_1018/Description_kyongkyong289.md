@@ -15,7 +15,7 @@
 > since maximum values of rows and columns are 50, It's enough.
 > ### 5. Implement
 > This is my first code using Brute Force  
-> [code](https://github.com/kyongkyong289/Algorithm/blob/master/Brute_Force/Chess_Board_1018/Description_kyongkyong289.md)  
+> [code](https://github.com/DevStevenLee/Algorithm/blob/master/Brute_Force/Chess_Board_1018/Chess_Board_1018_kyongkyong289.py)  
 > (Version #1)
 > ### 6. How it can be improved
 >
