@@ -27,7 +27,7 @@
 > <br />
 > <br />
 > ### 5. Implement
->
+>  Here is my [first apporach](https://github.com/DevStevenLee/Algorithm/blob/master/Brute_Force/Chess_Board_1018/ChessBoard_1018_Steven.java) using brute force                (#1. Steven, 2019-12-06 06:56)
 > <br /> 
 > <br />
 > ### 6. How it can be improved
