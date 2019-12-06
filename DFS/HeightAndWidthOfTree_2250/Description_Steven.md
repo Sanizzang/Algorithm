@@ -25,7 +25,7 @@
 > <br />
 > <br />
 > ### 5. Implement
->  Here is my first approaching [using a normal DFS](https://github.com/DevStevenLee/Algorithm/blob/master/DFS/HeightAndWidthOfTree_2250/HeightAndWidthOfTree_2250.java)
+>  Here is my first approaching [using a normal DFS](https://github.com/DevStevenLee/Algorithm/blob/master/DFS/HeightAndWidthOfTree_2250/HeightAndWidthOfTree_2250_Steven.java)
 > <br /> 
 > <br />
 > ### 6. How it can be improved

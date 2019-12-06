@@ -32,7 +32,7 @@
 > <br /> 
 > <br />
 > ### 5. Implement
->  Here is my first approaching [using a normal brute force.](https://github.com/DevStevenLee/Algorithm/blob/master/Brute_Force/PrinterQueue_1966/PrinterQueue_1966.java)
+>  Here is my first approaching [using a normal brute force.](https://github.com/DevStevenLee/Algorithm/blob/master/Brute_Force/PrinterQueue_1966/PrinterQueue_1966_Steven.java)
 > <br /> 
 > <br />
 > ### 6. How it can be improved

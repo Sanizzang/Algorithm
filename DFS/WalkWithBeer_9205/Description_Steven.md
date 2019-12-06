@@ -27,7 +27,7 @@
 > <br />
 > <br />
 > ### 5. Implement
->  Here is my first approaching for [Walk With Beer 9205](https://github.com/DevStevenLee/Algorithm/blob/master/DFS/WalkWithBeer_9205/WalkWithBeer_9205.java)
+>  Here is my first approaching for [Walk With Beer 9205](https://github.com/DevStevenLee/Algorithm/blob/master/DFS/WalkWithBeer_9205/WalkWithBeer_9205_Steven.java)
 > <br /> 
 > <br />
 > ### 6. How it can be improved

@@ -25,7 +25,7 @@
 > <br />
 > <br />
 > ### 5. Implement
->  Here is my first approaching for [ChooseNumber 2668](https://github.com/DevStevenLee/Algorithm/blob/master/DFS/ChooseNumber_2668/ChooseNumber_2668.java)
+>  Here is my first approaching for [ChooseNumber 2668](https://github.com/DevStevenLee/Algorithm/blob/master/DFS/ChooseNumber_2668/ChooseNumber_2668_Steven.java)
 > <br /> 
 > <br />
 > ### 6. How it can be improved
