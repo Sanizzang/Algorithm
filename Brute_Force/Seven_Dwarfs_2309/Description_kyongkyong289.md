@@ -14,7 +14,10 @@
 > ### 4. Validate a plan
 > Time complexity is O(n * (n - 1) / 2) which means O(n^2), since 9 is small number, there is enough time to calculate.
 > ### 5. Implement
-> 
+> This is my first approach using Brute Force  
+> [code](https://github.com/kyongkyong289/Algorithm/blob/kyongkyong289/Brute_Force/Seven_Dwarfs_2309/Seven_Dwarfs_2309_kyongkyong289.py)  
+> It worked on sample problem, but Baekjoon says it is wrong. Please, help me.  
+> (kyongkyong289, Version #1, 2019-12-06)
 > ### 6. How it can be improved
 >
 >
