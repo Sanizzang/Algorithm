@@ -25,7 +25,7 @@
 > <br />
 > <br />
 > ### 5. Implement
->
+>  Here is my [first approach](https://github.com/DevStevenLee/Algorithm/blob/master/Brute_Force/InsertOperator_14888/InsertOperator_14888_Steven.java) using brute force 
 > <br /> 
 > <br />
 > ### 6. How it can be improved
