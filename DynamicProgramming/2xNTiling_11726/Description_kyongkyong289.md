@@ -1,7 +1,7 @@
 # Six Steps
 <br />
 
-> ## Problem:
+> ## Problem:[2 x N Tiling](https://www.acmicpc.net/problem/11726)
 >
 > ### 1. Understanding problem
 > For given N, find number of cases of filling 2 x N space with 2 x 1 and 1 x 2 tiles.
@@ -21,7 +21,9 @@
 > ### 4. Validate a plan
 > The time complexity is O(N), this means we have enough time to calculate.
 > ### 5. Implement
->
+> Here is my first code using dynamic programming.  
+> [code](https://github.com/kyongkyong289/Algorithm/blob/kyongkyong289/DynamicProgramming/2xNTiling_11726/2xNTiling_11726_kyongkyong289.py)  
+> (kyongkyong289, Version #1, 2019-12-09)
 > ### 6. How it can be improved
 >
 >
