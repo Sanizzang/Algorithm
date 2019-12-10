@@ -26,7 +26,7 @@
 > <br />
 > <br />
 > ### 5. Implement
->
+>  Here is [first apporach](https://github.com/DevStevenLee/Algorithm/blob/master/BinarySearch/RobotProject_3649/RobotProject_3649_Steven.java) using binary search
 > <br /> 
 > <br />
 > ### 6. How it can be improved
