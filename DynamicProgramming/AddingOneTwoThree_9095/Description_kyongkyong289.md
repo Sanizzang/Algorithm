@@ -1,7 +1,7 @@
 # Six Steps
 <br />
 
-> ## Problem:
+> ## Problem:[Adding One Two Three](https://www.acmicpc.net/problem/9095)
 >
 > ### 1. Understanding problem
 > For a given value N, find number of cases of making N by adding 1, 2, and 3.
@@ -19,7 +19,9 @@
 > ### 4. Validate a plan
 > Time complexity is O(N). Since N is less than 11, We have enough time to claculate.
 > ### 5. Implement
->
+> Here is my first code.  
+> [code](https://github.com/kyongkyong289/Algorithm/blob/kyongkyong289/DynamicProgramming/AddingOneTwoThree_9095/AddingOneTwoThree_9095_kyongkyong289.py)  
+> (kyongkyong289, Version #1, 2019-12-11)
 > ### 6. How it can be improved
 >
 >
