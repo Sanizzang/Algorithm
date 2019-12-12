@@ -15,7 +15,6 @@
 >  Let's say castle is C, C[i][j] is a room at i row, j col in the caslte, then here is the task. 
   get a number of the room connected with C[i][j], get the maximum room connected C[i][j] and get the maximum
   room size when any wall is removed.
-
 > <br />
 > <br />
 > ### 3. Making a plan
