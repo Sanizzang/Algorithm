@@ -7,7 +7,7 @@
 > For given two digit number N, a certain calculation can be done.  
 > 1) If N is less than 10, add 0 to front.  
 > 2) Add two digits of N.  
-> 3) Make new number which first digit is second digit of N, and second digit is second digit of sum of two digits.  
+> 3) Make new number which first digit is second digit of N, and second digit is second digit of sum of two digits.
 > Find number of calculations which number returns to N.  
 > Example : For number 26.  
 > 26 -> 2 + 6 = 8  
