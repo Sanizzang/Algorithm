@@ -29,7 +29,7 @@
 > <br />
 > <br />
 > ### 5. Implement
->
+>  Here is my first [apporaching](https://github.com/DevStevenLee/Algorithm/blob/master/BFS/Castle_2234/Castle_2234_Steven.java) using BFS
 > <br /> 
 > <br />
 > ### 6. How it can be improved
