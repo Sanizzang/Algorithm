@@ -22,7 +22,9 @@
 > ### 4. Validate a plan
 > We don't know time complexity, since we don't know how much calculation required.
 > ### 5. Implement
->
+> Here is my first code.  
+> [code](https://github.com/kyongkyong289/Algorithm/blob/kyongkyong289/Mathematics/AddingCycle_1110/AddingCycle_1110_kyongkyong289.py)  
+> (kyongkyong289, Version #1, 2019-12-12)
 > ### 6. How it can be improved
 >
 >
