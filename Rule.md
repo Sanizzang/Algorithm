@@ -1,10 +1,10 @@
 # Rule
 
 > ### Rule for study
-> 1. Solving 3 problems of which part are random for a week at least and i gonna be saved each folder related to the part.
+> 1. Solving 2 problems of which part are random for a week at least and i gonna be saved each folder related to the part.
 > <br />
 >
-> 2. At least, do code review 3 times for a week on your code or you partner.
+> 2. At least, do code review 1 times for a week on your code or you partner.
 > <br />
 >
 > 3. Each problem has to be written with given a 6 steps file.
@@ -31,7 +31,7 @@
   with the Description\_(your name)
 > <br />
 >
-> 4. Time to write the description basically, you know how to use it but don't write 5, 6 yet
+> 4. Time to write the description basically, you know how to use it but plz don't write 5, 6 yet
 > <br />
 >
 > 5. Start write coding :). the file name should be (problem name\_your name). After this commit it.
@@ -40,7 +40,7 @@
 > 6. Pull request
 > <br />
 >
-> 7. After it's accepted by a manager, write the url of your code in Github into the step 5 of the descrption.
+> 7. After it's accepted by a manager, write the url of your code in Github to the step 5 of the descrption.
 >
 
 <br />
@@ -55,13 +55,13 @@
 > 2. Choose the specific target.
 > <br />
 >
-> 3. Read a someone's code and try to get the more efficient way than the current code.
+> 3. Read a your code and try to get the more efficient way than the current code.
 > <br />
 >
-> 4. Make a new branch where you gonna work on problem, programming with you idea !!
+> 4. Make a new branch where you gonna work on problem, programming with your idea !!
 > <br />
 >
-> 5. Write the step 6 of the someone's description why it wan not effective, why your approaching is better the writer.<br />
+> 5. Write the step 6 of the your description why it wan not effective, why your approaching is better the writer.<br />
 >    => Here is the [example](https://github.com/DevStevenLee/Algorithm/blob/master/BinarySearch/WeightLimit_1939/Description_Steven.md) for this
 > <br />
 >
