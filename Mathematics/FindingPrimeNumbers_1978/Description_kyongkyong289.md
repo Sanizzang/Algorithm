@@ -13,7 +13,9 @@
 > ### 4. Validate a plan
 > Time complexity is O(N), since N is small, we have enough time to calculate.
 > ### 5. Implement
->
+> Here is my first code.  
+> [code](https://github.com/kyongkyong289/Algorithm/blob/kyongkyong289/Mathematics/FindingPrimeNumbers_1978/FindingPrimeNumbers_1978_kyongkyong289.py)  
+> (kyongkyong289, Version #1, 2019-12-19)
 > <br /> 
 > <br />
 > ### 6. How it can be improved
