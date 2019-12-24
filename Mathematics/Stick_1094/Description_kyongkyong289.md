@@ -21,7 +21,9 @@
 > ### 4. Validate a plan
 > Time complexity is O(logX), since X is less than 64, there is enough time.
 > ### 5. Implement
->
+> Here is my first code.  
+> [code](https://github.com/kyongkyong289/Algorithm/blob/kyongkyong289/Mathematics/Stick_1094/Stick_1094_kyongkyong289.py)  
+> (kyongkyong289, Version #1, 2019-12-24)
 > ### 6. How it can be improved
 >
 >
