@@ -14,7 +14,9 @@
 > ### 4. Validate a plan
 > Time complexity is O(1). We have enough time to calculate.
 > ### 5. Implement
->
+> Here is my first code.  
+> [code](https://github.com/kyongkyong289/Algorithm/blob/kyongkyong289/Mathematics/EscapeFromRectangle_1085/EscapeFromRectangle_1085_kyongkyong289.py)  
+> (kyongkyong289, Version #1, 2019-12-26)
 > ### 6. How it can be improved
 >
 >
