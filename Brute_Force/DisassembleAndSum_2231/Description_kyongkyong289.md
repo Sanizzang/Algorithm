@@ -18,7 +18,9 @@
 > ### 4. Validate a plan
 > Time complexity is probably(N \* log(N)). Since N is less than 1000000, we have enough time to calculate.
 > ### 5. Implement
->
+> Here is my code using brute force.  
+> [code](https://github.com/kyongkyong289/Algorithm/blob/kyongkyong289/Brute_Force/DisassembleAndSum_2231/DisassembleAndSum_2231_kyongkyong289.py)  
+> (kyongkyong289, Version #1, 2019-12-29)
 > ### 6. How it can be improved
 >
 >
