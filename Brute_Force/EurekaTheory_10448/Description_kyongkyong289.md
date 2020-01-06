@@ -18,7 +18,9 @@
 > Time complexity is finding triangle numbers is O(sqrt(n)) and adding all cases is O(sqrt(n) * 3) which is O(n * 1.5).
 > Since N is less than 1000, we have enough time to calculate. 
 > ### 5. Implement
->
+> Here is my first code using brute force.
+> [code](https://github.com/DevStevenLee/Algorithm/blob/master/Brute_Force/EurekaTheory_10448/EurekaTheory_10448_kyongkyong289.py)  
+> (kyongkyong289, Version #1, 2020-01-01)
 > ### 6. How it can be improved
 >
 >
