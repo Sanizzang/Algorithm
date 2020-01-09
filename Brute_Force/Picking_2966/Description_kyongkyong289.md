@@ -19,6 +19,8 @@
 > ### 4. Validate a plan
 > Time complexity is O(N) since N is small than 1000, we have enough time to calculate.
 > ### 5. Implement
+> Here is my first code using brute force.  
+> [code](https://github.com/DevStevenLee/Algorithm/blob/master/Brute_Force/Picking_2966/Picking_2966_kyongkyong289.py)
 > (kyongkyong289, Version #1, 2020-01-06)
 > ### 6. How it can be improved
 >
