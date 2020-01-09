@@ -12,7 +12,7 @@
 > ### 4. Validate a plan
 > Time complexity is O(N), since N is less than 1000, we have enough time to calculate.
 > ### 5. Implement
-> Here is my first code using brute force.
+> Here is my first code using brute force.  
 > (kyongkyong289, Version #1, 2019-01-09)
 > ### 6. How it can be improved
 > 
