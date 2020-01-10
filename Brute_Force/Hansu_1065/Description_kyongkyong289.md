@@ -15,7 +15,9 @@
 > Here is my first code using brute force.  
 > (kyongkyong289, Version #1, 2019-01-09)
 > ### 6. How it can be improved
-> 
->
+>  I would like to recommend reducing the number of calling function to improve your code. actually, you called unnecessary functi
+> on a few times. i think you need to save the result of digits(n) function u made in a value. reuse it over and over again. also,
+> why don't you consider i < 100 case independently. just return out + 99 in number\_of\_hansu(n) :D <br />
+>                                                       by Steven, Lee (2020-01-10. 10.53 pm)
 >
 
