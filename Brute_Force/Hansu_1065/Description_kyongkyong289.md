@@ -10,9 +10,10 @@
 > We are going to find digits of number from 1 to N.
 > If digits are arithmetic sequence, then we can add number of hansu by 1.
 > ### 4. Validate a plan
-> Time complexity is O(N), since N is less than 1000, we have enough time to calculate.
+> Time complexity is O(N ^ 3), since N is less than 1000, we have enough time to calculate.
 > ### 5. Implement
 > Here is my first code using brute force.  
+> [code](https://github.com/DevStevenLee/Algorithm/blob/master/Brute_Force/Hansu_1065/Hansu_1065_kyongkyong289.py)
 > (kyongkyong289, Version #1, 2019-01-09)
 > ### 6. How it can be improved
 >  I would like to recommend reducing the number of calling function to improve your code. actually, you called unnecessary functi
