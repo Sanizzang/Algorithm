@@ -1,13 +1,10 @@
 # Rule
 
 > ### Rule for study
-> 1. Solving 2 problems of which part are random for a week at least and i gonna be saved each folder related to the part.
+> 1. Solving problems of which part are random for a week and you gonna be saved each folder related to the part.
 > <br />
 >
-> 2. At least, do code review 1 times for a week on your code or you partner.
-> <br />
->
-> 3. Each problem has to be written with given a 6 steps file.
+> 2. Each problem has to be written with given a 6 steps file.
 >
 <br />
 <br />
@@ -55,20 +52,24 @@
 > 2. Choose the specific target.
 > <br />
 >
-> 3. Read a your code and try to get the more efficient way than the current code.
+> 3. If you've chosen other not you, then just comment review in step 6 of someone's description, <br />
+>    => Here don't need to code yours improved approach, but just your idea, write how it can be imporved and your name, time.
 > <br />
 >
-> 4. Make a new branch where you gonna work on problem, programming with your idea !!
+> 4. If you've chosen your code, then try to get the more efficient way than the current code.
 > <br />
 >
-> 5. Write the step 6 of the your description why it wan not effective, why your approaching is better the writer.<br />
+> 5. Make a new branch where you gonna work on problem, programming with your new idea !!
+> <br />
+>
+> 6. Write the step 6 of the your description why it wan not effective, why your approaching is better the writer.<br />
 >    => Here is the [example](https://github.com/DevStevenLee/Algorithm/blob/master/BinarySearch/WeightLimit_1939/Description_Steven.md) for this
 > <br />
 >
-> 6. Write the step 5 with the number of how many times it patched, time and a Writer <br />
+> 7. Write the step 5 with the number of how many times it patched, time and a Writer <br />
 >    => Here is the [example](https://github.com/DevStevenLee/Algorithm/blob/master/BinarySearch/WeightLimit_1939/Description_Steven.md)
 > <br />
 >
-> 7. Commit it with how many times it patched
+> 8. Commit it with how many times it patched
 >
 >

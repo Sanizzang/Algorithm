@@ -20,7 +20,7 @@
 > #### There are five steps that we have to know
 >
 >
->> 1. Solving 2 problems of which part are random for a week at least and it gonna be saved each folder related to the part.
+>> 1. Solving problems of which part are random and it gonna be saved each folder related to the part.
 >> 2. Each problem has to be written with given a 6 steps file.
 >>	
 ```						  
@@ -35,7 +35,7 @@
 >>
 >> 3. After solving a problem, check out others program to compare with my code or review the code yourself.
 >>
->> 4. At least, do code review 1 times for a week on only your code.
+>> 4. Do code review on any someone's code.
 >>
 >> 5. Here is my [discord server](https://discord.gg/XGZPkh), join here :D
 >>
