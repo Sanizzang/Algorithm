@@ -66,8 +66,8 @@ def digits_to_num(digit_n):
     return num
 
 #Input part
-input_file = open('Large_input.txt', 'r')
-output_file = open('Answer_kyongkyong289.txt', 'w')
+input_file = open('LargeInput_TidyNumbers_B.txt', 'r')
+output_file = open('Answer_TidyNumbers_B_kyongkyong289.txt', 'w')
 cases = int(input_file.readline())
 input_list = []
 answer_list = []
