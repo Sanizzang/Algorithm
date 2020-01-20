@@ -19,10 +19,11 @@
 > We can find distance which is 1 more than previous node.
 > Then we can repeat this for all nodes in queue until we find K.
 > ### 4. Validate a plan
-> Time complexity is O(N * log(N)), because for all nodes N we have to find neighbors which is log(N).
+> Time complexity is O(N ^ 2 * log(N)), because for all nodes N we have to find neighbors which is log(N).
 > Since N is smaller than 1024, we have enough time to calculate.
 > ### 5. Implement
 > Here is my first code using BFS.  
+> [code](https://github.com/DevStevenLee/Algorithm/blob/master/BFS/BinaryGame_18112/BinaryGame_18112_kyongkyong289.py)
 > (kyongkyong289, Version #1, 2020-01-15)
 > ### 6. How it can be improved
 >
