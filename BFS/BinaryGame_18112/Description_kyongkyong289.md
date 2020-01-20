@@ -23,6 +23,7 @@
 > Since N is smaller than 1024, we have enough time to calculate.
 > ### 5. Implement
 > Here is my first code using BFS.  
+> [code](https://github.com/DevStevenLee/Algorithm/blob/master/BFS/BinaryGame_18112/BinaryGame_18112_kyongkyong289.py)
 > (kyongkyong289, Version #1, 2020-01-15)
 > ### 6. How it can be improved
 >
