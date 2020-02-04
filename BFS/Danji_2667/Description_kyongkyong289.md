@@ -19,6 +19,7 @@
 > Time complexity is O(N ^ 4) since number of nodes are N ^ 2. since N is smaller than 25, we have enough time to calculate.
 > ### 5. Implement
 > Here is my first code using BFS.  
+> [code](https://github.com/DevStevenLee/Algorithm/blob/master/BFS/Danji_2667/Danji_2667_kyongkyong289.py)  
 > (kyongkyong289, Version #1, 2020-02-04)
 > ### 6. How it can be improved
 >
