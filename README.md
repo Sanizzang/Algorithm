@@ -43,15 +43,20 @@
 >>
 >> @ Caution
 >> 1. There are the forms bout git message. If you solve a problem, then git message should be "Resolving (folder/\*\*\*/problem_name) by whom". If you improve a code, then, it should be "Improving (folder/\*\*\*/problem_name) by whom". If you do a review, then it should be "Comment (folder/\*\*\*/problem_name) by whom" If you fix some bugs, then it should be "Fix (folder/\*\*\*/problem_name) about a content of bugs by whom". Remember when you commit something, only execution file and description has to be added !!!
->> <br />
->> 
+<br />
+>>
+>>
 >> 2. If there is a problem you cant solve even if you spend time more than 48 hours.. then, you gotta write bout how other's code works in 6 step of a description.
->> <br />
+<br />
+>>
 >>
 >> 3. One meeting on Sunday
->> <br />
+<br />
+>>
+>>
 >> 4. Solving 3 problems and 3 comments for a week.
 >>
+
 
 
 
