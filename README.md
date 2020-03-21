@@ -38,7 +38,7 @@
 >> 4. Here is my [discord server](https://discord.gg/f3trPxu), join here :D
 >>
 >>
->> @ this is the [example](https://github.com/DevStevenLee/Algorithm/tree/master/BinarySearch/WeightLimit_1939) for this step.
+>> @ this is the [example](https://github.com/DevStevenLee/Algorithm/tree/master/Mathematics/MathIsASports2_17362) for this step.
 >>
 >>
 >> ### Caution
