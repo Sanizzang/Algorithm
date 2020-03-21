@@ -26,12 +26,12 @@
 > <br />
 >
 > ### 5. Implement
->  
+>  Here is my first approaching [my code](https://github.com/DevStevenLee/Algorithm/blob/master/Mathematics/MathIsASports2_17362/Steven.java)
 > <br /> 
 > <br />
 >
 > ### 6. How it can be improved
->
+>  my code is based on the expresssion i mentioned before. just get the remainder :D (by Steven, Lee 20.03.21)
 >
 >
 
