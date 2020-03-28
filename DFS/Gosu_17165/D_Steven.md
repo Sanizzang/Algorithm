@@ -33,12 +33,15 @@
 > <br />
 >
 > ### 5. Implement
->  
+>  Here is my [first approaching](https://github.com/DevStevenLee/Algorithm/blob/master/DFS/Gosu_17165/Steven.java)
 > <br /> 
 > <br />
 >
 > ### 6. How it can be improved
->
+>  my first apporaching has to be occuered a lot of multiple cases to visit from x to y. 
+> becuase winning path from x to y could be happened in every d(i, N). this inefficient could be decreased by using dijkstra.
+>  by Steven, Lee
+> 
 >
 >
 
