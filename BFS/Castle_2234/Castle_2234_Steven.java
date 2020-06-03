@@ -119,8 +119,10 @@ class Main{
 /*
  *	The 58th line shows a code to remove the wall.
  *	Here we can reduce the number of loop from 4 to 2.
- *	How this is possible is that if we break down the eastern and soutern walls,
- *	it satisfies the number of cases without breaking the north and west walls
+ *	How is it possible?
+ *	First, suppose you broke the eastern and southern walls in positions (0, 0).
+ *	This is the same as breaking the north or west wall at the location of (0, 1) and (1, 0)
+ *	where the values of rows and columns increased by 1 based on the positions of (0, 0).
  *
  * 	additional comments by Sanizzang
  */
