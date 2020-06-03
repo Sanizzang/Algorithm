@@ -115,3 +115,12 @@ class Main{
                 bw.close();
         }
 }
+
+/*
+ *	The 58th line shows a code to remove the wall.
+ *	Here we can reduce the number of loop from 4 to 2.
+ *	How this is possible is that if we break down the eastern and soutern walls,
+ *	it satisfies the number of cases without breaking the north and west walls
+ *
+ * 	additional comments by Sanizzang
+ */
