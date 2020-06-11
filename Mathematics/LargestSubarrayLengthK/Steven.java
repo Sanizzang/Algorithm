@@ -1,3 +1,9 @@
+/*
+ * Problem: LargestSubarrayLengthK
+ * Date: 20.06.11
+ * Writer: Steven, Lee
+ *
+ */
 import java.util.*;
 import java.io.*;
 
@@ -5,16 +11,27 @@ class Steven{
 	private static int N, K;
 
 	public static int[] solve(int[] nums){
-		int[] res = new int[K];
-
 		int start = 0;
-		int max = 0;
-
-		for(int i = 0 ; i < N ; i++){
+	
+		// It only reaches to N - K because we don't need to check out if it can not be grouped with K size.
+		for(int i = 0 ; i < N - K + 1 ; i++){
 			for(int j = 0 ; j < K ; j++){
-
+				// If nums[i+j] is bigger than nums[start+j], It means that grouping k size subarray from i to j 
+				// is greater than a subarray from start to j.
+				if(nums[start+j] < nums[i+j]){
+					start = i;
+					break;
+				}
 			}
 		}
+
+		// set a res subarray.
+		int[] res = new int[K];
+		for(int i = 0 ; i < K ; i++){
+			res[i] = nums[start+i];
+		}
+
+		return res;
 	}
 
 	public static void main(String[] args) throws Exception{
