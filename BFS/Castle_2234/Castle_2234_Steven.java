@@ -55,7 +55,7 @@ class Main{
         public static int breakAWall(int[][] map, int row, int col){
                 int maxSize = 0;
                 
-                for(int i = 0 ; i < 4 ; i++){
+                for(int i = 0 ; i < 2 ; i++){
                         boolean[][] visited = new boolean[R][C];
 			/* If there is a wall */
                         if((map[row][col] & (1 << i)) > 0){
@@ -120,9 +120,12 @@ class Main{
  *	The 58th line shows a code to remove the wall.
  *	Here we can reduce the number of loop from 4 to 2.
  *	How is it possible?
- *	First, suppose you broke the eastern and southern walls in positions (0, 0).
+ *	First, suppose you break the eastern and southern walls in positions (0, 0).
  *	This is the same as breaking the north or west wall at the location of (0, 1) and (1, 0)
  *	where the values of rows and columns increased by 1 based on the positions of (0, 0).
  *
  * 	additional comments by Sanizzang
+ *
+ *	=> I resolved the problem with your suggestion. I think you should add more details about this apporaching.
+ *
  */
