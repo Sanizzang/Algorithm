@@ -51,3 +51,16 @@ public class Main{
  *
  * By: Sanizzang
  */
+
+
+/*
+ * Review:
+ *
+ *  I would like to say that this problem should be solved by dynamic programming if it needs efficient way.
+ * so try this approach not brute force & backtracking. also, you don't need to consider -1 as a independent case
+ * it could be regarded as a part of divided 2 and 3 which means it can be functioned with N / 2 and N / 3
+ * (Hint: i % 2, i % 3)
+ *
+ * By Steven, Lee 20.08.02
+ *
+ */
