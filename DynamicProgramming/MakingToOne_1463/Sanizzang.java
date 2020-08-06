@@ -5,39 +5,16 @@
 import java.util.*;
 
 public class Main{
-    static int min = 10000;
-    static int[] visited;
-    static void makeOne(int N, int cnt){
-        if(N == 1){
-            min = Math.min(cnt, min);
-            return;
-        }
-        if((N % 3 == 0) && (visited[N / 3] > cnt || visited[N / 3] == 0)){
-            N /= 3;
-            visited[N] = cnt + 1;
-            makeOne(N, cnt + 1);
-            N *= 3;
-        }
-        if((N % 2 == 0) && (visited[N / 2] > cnt || visited[N / 2] == 0)){
-            N /= 2;
-            visited[N] = cnt + 1;
-            makeOne(N, cnt + 1);
-            N *= 2;
-        }
-        if(visited[N - 1] > cnt || visited[N - 1] == 0){
-            N -= 1;
-            visited[N] = cnt;
-            makeOne(N, cnt + 1);
-        }
-       
-    }
-    public static void main(String[] args){
+	public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
-        int N = scan.nextInt();
-        int cnt = 0;
-        visited = new int[N + 1];
-        makeOne(N, cnt);
-        System.out.println(min);
+	int N = scan.nextInt();
+	int[] values = new int[N + 1];
+	for(int i = 2;i <= N;i++){
+	    values[i] = values[i - 1] + 1;
+	    if(i % 3 == 0) values[i] = Math.min(values[i], values[i / 3] + 1);
+	    if(i % 2 == 0) values[i] = Math.min(values[i], values[i / 2] + 1);
+	}
+	System.out.println(values[N]);
     }
 }
 /*
@@ -63,4 +40,9 @@ public class Main{
  *
  * By Steven, Lee 20.08.02
  *
+ *
+ * => #1 I resolved it by using Dynamic Programming skill. I used bottom and top of Dynamic Programming skill.
+ *    Suppose you run loop from 2 to N, The value of i can be taken from i/2 and i/3. So I can do minimum operation.
+ * 								
+ * 								By: Sanizzang
  */
