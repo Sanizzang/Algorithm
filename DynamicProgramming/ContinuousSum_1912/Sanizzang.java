@@ -28,7 +28,8 @@ public class Main
  * The fist way I thought about it was to find the number of cases for every addition.
  * But this way caused a time-out.
  * So I pondered again what I missed.
- * So what I find is that if the value I've added before is greater than the value I now distinguish, I keep that value.
+ * If the current value is greater than the sum added(csum[]) in the previous loop, then the csum array is changed to the current
+ * value to meet the maximum conditions of the continuous agreement.
  * However, there was an exception if I compare this only.
  * So I separated the value of max from the add array.
  */
