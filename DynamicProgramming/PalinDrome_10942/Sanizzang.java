@@ -3,43 +3,64 @@
  * Writer: Sanizzang
  */
 import java.util.*;
+import java.io.*;
 
 public class Main
 {
-    static int[] nums;
-    static int[][] visit;
-    static int palinDrome(int S, int E){
-        if(nums[S] == nums[E] && ((S - E == 0) || (S - E == -1))){
-            visit[S][E] = 1;
-            return visit[S][E];
-        }
-        if(visit[S][E] == 1) return visit[S][E];
-        if(nums[S] == nums[E]){
-            visit[S][E] = palinDrome(S + 1, E - 1);
-        }
-        return visit[S][E];
-    }
-	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in);
-		visit = new int[2001][2001];
-		int N = scan.nextInt(); //입력
-		nums = new int[N + 1];
- 		for(int i = 1;i < N + 1;i++){
-		    nums[i] = scan.nextInt();
+	public static void main(String[] args) throws Exception {
+	    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+	    BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+		
+            int N = Integer.parseInt(br.readLine()); // scan.nextInt();
+		
+	    int[] nums = new int[N + 1];
+ 	    int[][] visit = new int[N + 1][N + 1];
+		
+            StringTokenizer st = new StringTokenizer(br.readLine());
+ 		
+ 	    for(int i = 1;i < N + 1;i++){
+ 		    int num = Integer.parseInt(st.nextToken()); //(br.readLine());// scan.nextInt();
+		    nums[i] = num;
+		    visit[i][i] = 1;
 		}
-		int q = scan.nextInt();
-	    int[][] SE = new int[q][2];
-	    for(int i = 0;i < q;i++){
-	        SE[i][0] = scan.nextInt();
-	        SE[i][1] = scan.nextInt();
+	    
+	    for(int i = 1;i < N;i++){
+	        if(nums[i] == nums[i + 1]){
+	            visit[i][i + 1] = visit[i + 1][i] = 1;
+	        }
 	    }
-	    for(int i = 0;i < q;i++){
-	        System.out.println(palinDrome(SE[i][0], SE[i][1]));
+	    
+	    for(int i = 2;i < N;i++){
+	        for(int j = 1;j <= N - i;j++){
+	            if((visit[j + 1][i + j - 1] == 1) && (nums[j] == nums[i + j])){
+	                visit[j][i + j] = visit[i + j][j] = 1;
+	            }
+	        }
 	    }
+	    
+	    int q = Integer.parseInt(br.readLine());
+	    
+	    for(int i = 0;i < q;i++){
+	        st = new StringTokenizer(br.readLine());
+	        
+	        int S = Integer.parseInt(st.nextToken());
+	        int E = Integer.parseInt(st.nextToken());
+	        
+	        bw.write(visit[S][E] + "\n");
+	    }
+	    
+	    bw.flush();
+	    
+	    br.close();
+	    bw.close();
 	}
 }
 
 /*
  * Description:
- * I'm going to make further improvements.
+ * First, distinguish palindromes when the value of S - E is 0 or 1.
+ * How to distinguish palindromes with a sequence size of 3 or more is divided into whether S + 1 and E - 1 are palindromes
+ * and S, E are the same values.
+ * The reason why S + 1 and E - 1 are palindrome is because the values of S + 2 and E - 2 have already been
+ * confirmed to be palindrome.
  */
